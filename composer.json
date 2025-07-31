@@ -2,7 +2,9 @@
   "name": "tuusuario/menu-catalog",
   "description": "Catálogo de menús en PHP puro con MVC y migraciones",
   "type": "project",
-  "require": {},
+  "require": {
+    "ext-pdo": "*"
+  },
   "autoload": {
     "psr-4": {
       "App\\": "core/",
